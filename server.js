@@ -11,7 +11,7 @@ const io = require('socket.io')(server);
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://imaginative-gaufre-5063ee.netlify.app/",
     methods: ["GET", "POST","PATCH","DELETE"],
   })
 );
